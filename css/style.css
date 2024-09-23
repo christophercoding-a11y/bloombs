@@ -1,0 +1,58 @@
+:root {
+    --font1:"borel", cursive;
+    --font2: "Sofia", cursive;
+    --sec: #26292e;
+    --prim: #e7718b;
+    --tert: #f4f4f6;
+    --sec2border: #fce3e7;
+    --btnColor: #353535;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #704650
+    );
+    /* 
+    product box #444
+    product border #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+.heading {
+    font-family: var(--font1);
+    color: white;
+}
+
+.social-list {
+    list-style-type: none;
+}
+
+.section1 {
+    padding: 30px 0;
+    background-color: var(--prim);
+    background-image: var(--grad);
+}
+
+#section2 {
+    padding: 20px 0;
+    background-color: var(--tert);
+    border-bottom: 10px solid var(--sec2border);
+}
+
+#section3 {
+    padding: 20px 0;
+}
+
+#headerSection1 {
+    padding: 8px 0;
+    background-color: #26292e;
+}
+
