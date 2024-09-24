@@ -31,9 +31,19 @@
     color: white;
 }
 
-.social-list {
-    list-style-type: none;
+
+
+.figure {
+    margin-right: 60px;
+    margin-bottom: 30px;
+    background-color: black;
+    border: 5px solid #b8c4d4;
+    height: 140px;
+    width: 280px;
 }
+
+
+
 
 .section1 {
     padding: 30px 0;
@@ -41,7 +51,7 @@
     background-image: var(--grad);
 }
 
-#section2 {
+.section2 {
     padding: 20px 0;
     background-color: var(--tert);
     border-bottom: 10px solid var(--sec2border);
@@ -49,6 +59,15 @@
 
 #section3 {
     padding: 20px 0;
+}
+
+.bold {
+    font-weight: 400;
+    color: black;
+}
+
+.footer {
+    background-color: black;
 }
 
 #headerSection1 {
