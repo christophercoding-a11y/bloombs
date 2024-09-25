@@ -26,9 +26,11 @@
     background-color: var(--tert);
 }
 
+
 .heading {
     font-family: var(--font1);
     color: white;
+    font-size: calc(12px + (24 - 12) * ((100vw - 300px) / (1600 - 300)));;
 }
 
 
@@ -60,6 +62,7 @@
 #section3 {
     padding: 20px 0;
 }
+
 
 .bold {
     font-weight: 400;
